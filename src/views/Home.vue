@@ -58,6 +58,8 @@ export default class Home extends Vue {
   .history-search {
     height: 60vh;
 
+    margin-top: 10vh;
+
     position: relative;
 
     .history-search__card {

@@ -71,14 +71,14 @@ $fontSize: 1.75rem;
   justify-content: center;
 
   @media screen and (min-width: 768px) {
-    height: 20vh;
-
-    margin-top: 3vh;
-  }
-  @media screen and (max-width: 767px) {
     height: 15vh;
 
-    margin-top: 8.5vh;
+    margin-top: 8vh;
+  }
+  @media screen and (max-width: 767px) {
+    height: 10vh;
+
+    margin-top: 13.5vh;
   }
 
   background-color: white;

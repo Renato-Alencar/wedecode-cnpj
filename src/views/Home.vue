@@ -7,7 +7,7 @@
         v-for="(card, index) in getHistorySearch"
         :key="index"
       >
-        <h1 class="card__text" id="title">{{ card["RAZAO SOCIAL"] }}</h1>
+        <h1 class="card__text" id="title" @click="goToForm()">{{ card["RAZAO SOCIAL"] }}</h1>
         <div class="card__text">
           <p class="text__field">{{ card["LOGRADOURO"] }},</p>
           <p class="text__field">{{ card["MUNICIPIO"] }} -</p>
@@ -35,6 +35,10 @@ import { cnpj } from "@/store/types";
 export default class Home extends Vue {
   get getHistorySearch(): cnpj[] {
     return this.$store.state.history;
+  }
+
+  goToForm(): void {
+    this.$router.push({ name: "Consulta" });
   }
 }
 </script>
@@ -98,6 +102,12 @@ export default class Home extends Vue {
         letter-spacing: 0.1vw;
 
         color: rgb(26, 107, 26);
+
+        &:hover {
+          cursor: pointer;
+
+          color: forestgreen;
+        }
       }
     }
   }

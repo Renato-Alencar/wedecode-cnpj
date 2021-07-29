@@ -23,6 +23,7 @@
 ## Visualização do Projeto
 - ### Link de deploy pelo Netlify
   https://heuristic-murdock-0dd036.netlify.app/
+
 ou
 - ### Execução do Projeto
 1. Clone o repositório;

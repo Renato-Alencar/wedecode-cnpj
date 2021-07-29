@@ -97,6 +97,7 @@ export default class Home extends Vue {
 
       #title {
         margin-left: 1vw;
+        margin-bottom: 2vh;
 
         font-weight: 500;
         font-size: clamp(0.9rem, 2.5vw, 1.25rem);

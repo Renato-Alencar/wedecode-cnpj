@@ -1,6 +1,8 @@
 <div style="text-align: justify">
 
 # WeDecode CNPJ
+  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/822fde9c-34cc-428b-9162-6600e21afbaf/deploy-status)](https://app.netlify.com/sites/heuristic-murdock-0dd036/deploys)
 
 <img src="https://vuejs.org/images/logo.png" alt="logo do Vue" height="100px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="logo do TypeScript" height="100px">

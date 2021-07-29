@@ -40,6 +40,8 @@ export default class Home extends Vue {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/reset/reset.css';
+
 .home {
   max-width: 100vw;
   height: 100vh;

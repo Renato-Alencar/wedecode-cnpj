@@ -39,6 +39,8 @@ export default class Consulta extends Vue {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/reset/reset.css';
+
 .consulta {
   height: 100vh;
 
@@ -178,7 +180,7 @@ export default class Consulta extends Vue {
     background-color: darkgreen;
     color: whitesmoke;
 
-    margin: 2vh 0;
+    margin-top: 2vh;
 
     padding: 1.5vh 1.5vw;
 

@@ -56,6 +56,7 @@ export default class ConsultaCNPJ extends Vue {
 </script>
 
 <style lang="scss" scoped>
+
 $fontSize: 1.75rem;
 
 .consulta-cnpj {

@@ -126,7 +126,6 @@ $fontSize: 1.75rem;
     font-size: clamp(0.6rem, 2vw, 1rem);
 
     &:disabled {
-      opacity: 35%;
       background-color: gray;
       &:hover {
         filter: brightness(100%);
